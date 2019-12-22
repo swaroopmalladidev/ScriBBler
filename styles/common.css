@@ -1,0 +1,26 @@
+#siteLogo{
+  font-family: 'Montez', cursive;
+  font-size: 40px;
+  text-align: left; 
+  color: blue;
+  margin: auto;
+  margin: 10px 10px 0px 10px;
+}
+
+#subHeading{
+  font-family: 'Ubuntu Mono', monospace;
+  margin: 0 10px 0 10px;
+}
+
+.headerButton{
+  text-align: center;
+  background: blue;
+  color: white;
+  width: 80px;
+  padding: 10px;
+  font-size: 15px;
+  float: right;
+  cursor: pointer;
+  margin: 10px 10px 10px 10px;
+  font-family: 'Helvetica', sans-serif;
+}

@@ -1,0 +1,27 @@
+body{
+    background: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    display: block;
+    background-position: center;
+    background-attachment: fixed; 
+  }
+
+  #postButtons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.postBttn{
+    text-align: center;
+    background: orange;
+    width: 100px;
+    padding: 8px;
+    margin: 0 5px;
+    font-size: 90%;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+}
