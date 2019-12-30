@@ -1,27 +1,64 @@
-body{
+body {
     background: url('../images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    overflow:hidden;
-    display: block;
-    background-position: center;
-    background-attachment: fixed; 
-  }
-
-  #postButtons {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    background-position: center center;
+    background-attachment: fixed;
 }
 
-.postBttn{
+#post-Buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: none;
+}
+
+.post-Bttn {
     text-align: center;
     background: orange;
     width: 100px;
-    padding: 8px;
-    margin: 0 5px;
-    font-size: 90%;
+    padding: 10px;
+    font-size: 85%;
     cursor: pointer;
     font-family: Helvetica, sans-serif;
+    border: none;
+}
+
+#postTitle {
+    background-color: #F1F1F1;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+#post-Content {
+    background-color: #F1F1F1;
+    padding: 15px 15px;
+    height: 250px;
+    border: none;
+}
+
+#createPost-Bttn {
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 85%;
+    border: none;
+}
+
+.createPostModal {
+    background-color: #fefefe;
+    margin: 2% auto;
+    padding: 0 20px;
+    border: 1px solid #888;
+    width: 65%;
+    font-family: 'Arial', sans-serif;
+}
+
+#createPostForm {
+    padding: 0px 40px;
 }

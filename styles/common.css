@@ -1,26 +1,102 @@
-#siteLogo{
-  font-family: 'Montez', cursive;
-  font-size: 40px;
-  text-align: left; 
-  color: blue;
-  margin: auto;
-  margin: 10px 10px 0px 10px;
+#site-Logo {
+    font-family: 'Montez', cursive;
+    font-size: 40px;
+    text-align: left;
+    color: blue;
+    margin: auto;
+    margin: 10px 10px 0px 10px;
 }
 
-#subHeading{
-  font-family: 'Ubuntu Mono', monospace;
-  margin: 0 10px 0 10px;
+#sub-Heading {
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0 10px 0 10px;
 }
 
-.headerButton{
-  text-align: center;
-  background: blue;
-  color: white;
-  width: 80px;
-  padding: 10px;
-  font-size: 15px;
-  float: right;
-  cursor: pointer;
-  margin: 10px 10px 10px 10px;
-  font-family: 'Helvetica', sans-serif;
+.header-Button {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    width: 80px;
+    padding: 10px;
+    font-size: 15px;
+    float: right;
+    cursor: pointer;
+    margin: 10px 10px 10px 10px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 15px;
+    margin: 15px 0 5px 0;
+}
+
+input[type=text],
+input[type=password] {
+    border: black;
+    background-color: lightgray;
+    padding: 15px 15px;
+}
+
+#signUpRedirect {
+    color: blue;
+    cursor: pointer;
+}
+
+.signBttn {
+    background-color: green;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 14px 20px;
+    margin: 30px 0 30px 0;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000bf;
+}
+
+h4 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headerModal {
+    background-color: white;
+    margin: 2% auto;
+    padding: 0px 20px 20px 20px;
+    border: 1px solid grey;
+    width: 25%;
+    height: auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.modalClose {
+    float: right;
+    font-size: 25px;
+}
+
+.modalClose:hover,
+.modalClose:focus {
+    color: grey;
+    cursor: pointer;
 }
