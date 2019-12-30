@@ -12,11 +12,11 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
     <!--External Stylesheets used in the application-->
-    <link href='styles\common.css' rel='stylesheet' type='text/css'>
-    <link href='styles\index.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../styles/common.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/index.css" />
 
     <!--Font Awesome 4 fonts-->
-    <script src="https://kit.fontawesome.com/a9185cfa44.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/ce23195733.js"></script>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
     <!--Sign Up Modal-->
     <div class="modal" id="signUp-Modal">
         <div class="headerModal">
-            <span class="modalClose" onclick="signUpModal()">&times;</span>
+            <span class="modalClose" onclick="signUpModal()"><i class="fa fa-times" aria-hidden="true"></i></span>
             <h2>Get Started</h2>
             <hr>
             <form>
@@ -55,7 +55,7 @@
     <!--Sign In Modal-->
     <div class="modal" id="signIn-Modal">
         <div class="headerModal">
-            <span class="modalClose" onclick="signInModal();">&times;</span>
+            <span class="modalClose" onclick="signInModal();"><i class="fa fa-times" aria-hidden="true"></i></span>
             <h2>Welcome Back!</h2>
             <hr>
             <form>
@@ -80,7 +80,7 @@
     <!--Create Post Modal-->
     <div class="modal" id="createPostModal">
         <div class="createPostModal">
-            <span class="modalClose" onclick="createPostModal();">&times;</span>
+            <span class="modalClose" onclick="createPostModal();"><i class="fa fa-times" aria-hidden="true"></i></span>
             <h3>Pen Your Post</h3>
             <hr>
             <form id="createPostForm">
